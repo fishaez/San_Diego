@@ -45,6 +45,10 @@
     li {
       margin: 0.7rem 0;
     }
+    .optional {
+      color: #555;
+      font-style: italic;
+    }
     footer {
       text-align: center;
       padding: 2rem;
@@ -65,9 +69,9 @@
   <ul>
     <li><span class="time">Jan 14 · 09:00</span> — Flight from YVR</li>
     <li><span class="time">Jan 16 · 18:05</span> — Flight back to YVR</li>
-    <li>Wednesday: <strong>Not working</strong></li>
-    <li>Thursday & Friday: <strong>Work days (flexible)</strong></li>
-    <li>Partner arrived earlier (company event)</li>
+    <li>Wednesday: <strong>Arrival & explore</strong></li>
+    <li>Thursday: <strong>Couple day</strong></li>
+    <li>Friday: <strong>Relaxed day + departure</strong></li>
   </ul>
 
   <!-- Wednesday -->
@@ -78,65 +82,68 @@
       <li><span class="time">11:30–12:00</span> — Arrive SAN</li>
       <li><span class="time">12:15</span> — Uber from airport to Old Town San Diego</li>
 
-      <li><span class="time">12:30–13:45</span> — <strong>Lunch: Old Town Mexican Café</strong><br/>
-        • Classic San Diego Mexican food<br/>
-        • Handmade tortillas & affordable
-      </li>
+      <li><span class="time">12:30–13:45</span> — <strong>Lunch: Old Town Mexican Café</strong></li>
 
       <li><span class="time">13:45–14:45</span> — Walk around Old Town<br/>
-        • Historic buildings, souvenir shops, quick photos
+        • Historic streets, shops, light sightseeing
       </li>
 
       <li><span class="time">15:00</span> — Uber to Bahia Resort & check-in</li>
 
-      <li><span class="time">16:00–17:30</span> — Mission Bay walk & relax<br/>
-        • Walk along the bay paths around Bahia Resort
-      </li>
+      <li><span class="time">16:00–17:30</span> — Mission Bay walk & relax</li>
 
       <li><span class="time">18:30–19:45</span> — <strong>Dinner: Dockside 1953</strong><br/>
-        • Waterfront restaurant inside Bahia Resort<br/>
-        • Easy, no travel after a long day
+        • Waterfront dining inside the resort
       </li>
     </ul>
   </div>
 
   <!-- Thursday -->
-  <h2>Thursday — Jan 15 (Work + Couple Time)</h2>
+  <h2>Thursday — Jan 15 (Couple Day)</h2>
   <div class="day">
     <ul>
-      <li><span class="time">07:30–08:30</span> — Morning bay walk & coffee</li>
-      <li><span class="time">09:00–12:00</span> — Work</li>
+      <li><span class="time">07:30–08:30</span> — Morning bay walk & coffee (together)</li>
 
-      <li><span class="time">12:00–13:00</span> — <strong>Lunch: Olive Café</strong><br/>
-        • Casual sandwiches & coffee near Mission Beach
+      <li class="optional">
+        <span class="time">Late Morning</span> — Relax at the resort<br/>
+        • Pool, beach chairs, or just resting
       </li>
 
-      <li><span class="time">13:00–16:30</span> — Work (flexible)</li>
+      <li><span class="time">12:00–13:00</span> — <strong>Lunch: Olive Café</strong><br/>
+        • Casual lunch near Mission Beach
+      </li>
 
-      <li><span class="time">17:00–18:00</span> — Mission Beach boardwalk stroll<br/>
-        • Short walk, sunset vibes
+      <li class="optional">
+        <span class="time">Afternoon</span> — Mission Bay walk or bike ride<br/>
+        • Flat, scenic paths around the resort
+      </li>
+
+      <li class="optional">
+        <span class="time">Late Afternoon</span> — Mission Beach boardwalk stroll<br/>
+        • People-watching, beach views
       </li>
 
       <li><span class="time">18:30–20:00</span> — <strong>Dinner (Sushi): Cannonball</strong><br/>
-        • Rooftop sushi & ocean views<br/>
-        • Perfect to enjoy together
+        • Rooftop sushi & sunset ocean views
       </li>
     </ul>
   </div>
 
   <!-- Friday -->
-  <h2>Friday — Jan 16 (Work + Departure)</h2>
+  <h2>Friday — Jan 16 (Relaxed Day & Departure)</h2>
   <div class="day">
     <ul>
       <li><span class="time">07:30–08:30</span> — Breakfast & pack</li>
-      <li><span class="time">09:00–12:00</span> — Work</li>
 
-      <li><span class="time">12:15–13:45</span> — <strong>Lunch: Stone Brewing Liberty Station</strong><br/>
-        • Relaxed brewery lunch<br/>
-        • Big outdoor garden
+      <li class="optional">
+        <span class="time">Morning</span> — Final bay walk or coffee near the resort
       </li>
 
-      <li><span class="time">13:45–14:30</span> — Short walk around Liberty Station</li>
+      <li><span class="time">12:15–13:45</span> — <strong>Lunch: Stone Brewing Liberty Station</strong><br/>
+        • Casual lunch with outdoor seating
+      </li>
+
+      <li><span class="time">13:45–14:30</span> — Walk around Liberty Station</li>
 
       <li><span class="time">15:00</span> — Return to hotel, pack & check-out</li>
 
